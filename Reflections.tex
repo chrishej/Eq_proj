@@ -1,0 +1,124 @@
+\documentclass[10pt,oneside,english]{lips}
+
+  %\usepackage[square]{natbib}\bibliographystyle{plainnat}\setcitestyle{numbers}
+  \usepackage{titlesec}
+  \usepackage{blindtext}
+  \usepackage[utf8]{inputenc}
+  \usepackage{graphicx}
+  \usepackage{rotating}
+  \usepackage{tikz}
+  \usepackage{float}
+  \usepackage[square]{natbib}\bibliographystyle{IEEEtran}\setcitestyle{numbers}
+  %\usepackage[round]{natbib}\bibliographystyle{plainnat}
+  \usepackage{enumitem}
+  \usepackage{gensymb}
+  \usepackage{listings}
+  \usepackage{xcolor}
+  \usepackage[nottoc,notlot,notlof]{tocbibind}
+  \usepackage{verbatim}
+  \usepackage{graphics}
+  \usepackage{subcaption}
+  
+  % Comment commands for group members
+  \newcommand{\fixthis}[1]{\textcolor{red}{#1}}
+  \newcommand{\comsamuel}[1]{\textcolor{Magenta}{Samuel: }\textcolor{Magenta}{#1}}
+  \newcommand{\comalex}[1]{\textcolor{Dandelion}{Alexander: }\textcolor{Dandelion}{#1}}
+  \newcommand{\comdaniel}[1]{\textcolor{MidnightBlue}{Daniel: }\textcolor{MidnightBlue}{#1}}
+  \newcommand{\commax}[1]{\textcolor{Plum}{Max: }\textcolor{Plum}{#1}}
+  \newcommand{\comchris}[1]{\textcolor{LimeGreen}{Christoffer: }\textcolor{LimeGreen}{#1}}
+  
+  % Configure the document
+  \title{Final report}
+  \author{Group 20}
+  \date{2018-10-19}
+  \version{1.0}
+  
+  \reviewed{}{}
+  \approved{}{}
+  
+  \projecttitle{Design of Digital Systems}
+  
+  \groupname{Group 20}
+  \groupemail{chrhe465@student.liu.se}
+  \groupwww{--}
+  
+  \coursecode{TSTE12}
+  \coursename{Design of Digital Systems}
+  
+  \orderer{Kent Palmkvist}
+  \ordererphone{+46 013-281347}
+  \ordereremail{kent.palmkvist@liu.se}
+  
+  \courseresponsible{Kent Palmkvist}
+  \courseresponsiblephone{+46 013-281347}
+  \courseresponsibleemail{kent.palmkvist@liu.se}
+  
+  \supervisor{Erik Bertilsson}
+  \supervisorphone{--}
+  \supervisoremail{Erik.Bertilsson@liu.se}
+  
+  %\smalllogo{logo} % Page header logo, filename
+  %\biglogo{logo} % Front page logo, filename
+  
+  \cfoot{\thepage}
+  \begin{document}
+  \setlength\parindent{0pt}
+  \maketitle
+  
+  \cleardoublepage
+  \makeprojectid
+  
+  \begin{center}
+    \Large Participants of the group
+  \end{center}
+  \begin{center}
+    \begin{tabular}{|l|l|l|}
+      \hline
+      \textbf{Name} & \textbf{Responsible} & \textbf{E-mail}\\ \hline
+      Christoffer Hejdström & Project manager & chrhe465@student.liu.se \\ \hline
+      Samuel Erlands & & samer437@student.liu.se \\ \hline
+      Alexander Forsman & & alefo777@student.liu.se\\ \hline
+      Max Jonsson & & maxjo358@student.liu.se\\ \hline
+      Daniel Thoren & & danth343@student.liu.se\\
+      \hline
+    \end{tabular}
+  \end{center}
+  
+  
+  \cleardoublepage
+  \tableofcontents
+  
+  \cleardoublepage
+  \section*{Document History}
+  \begin{tabular}{p{.06\textwidth}|p{.1\textwidth}|p{.45\textwidth}|p{.13\textwidth}|p{.13\textwidth}} 
+    \multicolumn{1}{c}{\bfseries Version} & 
+    \multicolumn{1}{|c}{\bfseries Date} & 
+    \multicolumn{1}{|c}{\bfseries Changes made} & 
+    \multicolumn{1}{|c}{\bfseries Sign} & 
+    \multicolumn{1}{|c}{\bfseries Reviewer}\\
+    \hline
+    \hline
+    1.0 & 2018-10-19 & Final report written. & C.H & Christoffer Hejdström \\ \hline
+  \end{tabular}
+  
+  \cleardoublepage
+  \pagenumbering{arabic}\cfoot{\thepage}
+  
+  %\input{Avsnitt/time_report.tex}  
+  \section{Test}
+  %\begin{requirements}
+  %  \requirementno & Description & 1\\
+  %\end{requirements}
+  
+  \clearpage
+  \bibliography{references}
+  \cleardoublepage
+  \appendix
+  
+  \end{document}
+  
+  %%% Local Variables:
+  %%% mode: latex
+  %%% TeX-master: t
+  %%% End:
+  
