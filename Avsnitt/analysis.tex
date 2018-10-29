@@ -1,7 +1,19 @@
 \section{Analysis of work efforts and problems}
+In this section the distribution of work, collaboration within the group, theoretical and technical problems, and finally the experiences from using the design tool will be discussed. 
 \subsection{Distribution of work between project group members}
-\subsection{Collaboration within the goup}
+When the project started we identified two major subsystems; the codec interface and the FIR filters. We had five people, so we divided in two teams of two to design and implement the codec interface and FIR filters and one to start designing and implementing the remaining subsystems. 
+
+\subsection{Collaboration within the group}
+The group has tried to sit together in the lab as much as possible during the project, so the members could help each other. The collaboration has worked very well.
+
 \subsection{Collaboration with the supervisor and technical support}
+The supervisor have been very responsive when the project group have wanted meetings. As a project manager i would have liked it if the supervisor had sent me an email when the documents were approved. The supervisor have been easy to get ahold of in his office for smaller questions.
+
 \subsection{Theoretical problems}
+We did not have any theoretical problems with the FIR filters, as they are very easy from a theoretical standpoint.
+
 \subsection{Technical problems}
+Technical problems with the FIR filters, and the whole system, is two:s complement fix-point representation of numbers and overflow management. The FIR filters have additional technical problems since they do not work, but that has yet to be resolved.
+
 \subsection{Experiences from use of design tools}
+HDL designer feels outdated, it behaves very strange at times. While the graphical block diagram is nice to have, i feel that this project could have been done without this and written only in code and tested with modelsim -- which is very good and easy to use. This would also have made version control easier. We used GitLab, which worked after some work. HDL designer has SVN built in to it, but as none of the members has used it before, we decided to use git.  
